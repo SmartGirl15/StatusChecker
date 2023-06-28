@@ -9,12 +9,11 @@
 1. `API_ID` : Telegram API_ID, get it from my.telegram.org/apps
 2. `API_HASH` : Telegram API_ID, get it from my.telegram.org/apps
 3. `STRING_SESSION` : A valid Pyrogram session string, get it from [@StringGenratorbot](https://t.me/StringGenratorbot)
-4. `BOT_TOKEN` : A valid bot token, get it from [@BotFather](https://t.me/BotFather)
-5. `BOT_LIST` : Your bot username list without '@' (Example: Atiya_Robot PyroHackRobot)
-6. `CHANNEL_ID` : Your channel's Telegram id (Example: -1001887171460)
-7. `MESSAGE_ID` : Telegram id of message from your channel or group (Example: 45)
-8. `LOG_ID` : Log id (Example: -1001565615923)
-9. `TIME_ZONE`: Your time zone (Example: Asia/Kolkata)
+4. `BOT_LIST` : Your bot username list without '@' (Example: Atiya_Robot PyroHackRobot)
+5. `CHANNEL_ID` : Your channel's Telegram id (Example: -1001887171460)
+6. `MESSAGE_ID` : Telegram id of message from your channel or group (Example: 45)
+7. `LOG_ID` : Log id (Example: -1001565615923)
+8. `TIME_ZONE`: Your time zone (Example: Asia/Kolkata)
 
 <b>ɴᴏᴡ ᴄᴏᴘʏ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ᴄᴏᴅᴇ ᴀɴᴅ ᴀᴅᴅ ɪɴᴛᴏ ʏᴏᴜʀ ʀᴇᴘᴏsɪᴛᴏʀʏ ɪɴ ᴘʟᴜɢɪɴs ᴅɪʀᴇᴄᴛᴏʀʏ :</b>
 
