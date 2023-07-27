@@ -29,12 +29,12 @@ async def main():
             for bots in BOT_LIST:
                 ok = await app.get_users(f"@{bots}")
                 try:
-                    await app.send_message(bots, "/RocksStatusBot")
+                    await app.send_message(bots, "/start")
                     await asyncio.sleep(2)
                     messages = app.get_chat_history(bots, limit=1)
                     async for x in messages:
                         msg = x.text
-                    if msg == "/RocksStatusBot":
+                    if msg == "/start":
                         TEXT += f"\n\n**╭⎋ [{ok.first_name}](tg://openmessage?user_id={ok.id})** \n**╰⊚ sᴛᴀᴛᴜs: ᴏғғʟɪɴᴇ ❄**"
                         await app.send_message(LOG_ID, f"**[{ok.first_name}](tg://openmessage?user_id={ok.id}) ᴏғғ ʜᴀɪ. ᴀᴄᴄʜᴀ ʜᴜᴀ ᴅᴇᴋʜ ʟɪʏᴀ ᴍᴀɪɴᴇ.**")
                         await app.read_chat_history(bots)
@@ -48,6 +48,6 @@ async def main():
             time = time.strftime("%I:%M %p")
             TEXT += f"\n\n**ʟᴀꜱᴛ ᴄʜᴇᴄᴋ ᴏɴ :**\n**ᴅᴀᴛᴇ :** {date}\n**ᴛɪᴍᴇ :** {time}\n\n"
             await app.edit_message_text(int(CHANNEL_ID), (MESSAGE_ID), TEXT)
-            await asyncio.sleep(300)
+            await asyncio.sleep(30)
 
 app.run(main())          
